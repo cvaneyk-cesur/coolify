@@ -1,4 +1,4 @@
-FROM docker.n8n.io/n8nio/n8n
+FROM n8nio/n8n:latest
 
 # Cambia a usuario root para instalar paquetes
 USER root
