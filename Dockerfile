@@ -14,6 +14,7 @@ ENV N8N_PORT=5678
 ENV N8N_PROTOCOL=https
 ENV NODE_ENV=production
 ENV WEBHOOK_URL=https://n8n.grupocoremsa.com/
+ENV N8N_RUNNERS_ENABLED=true
 
 # Vuelve al usuario original de n8n
 USER node
